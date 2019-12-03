@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sfw-Xq-ea9">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Card View Controller-->
+        <scene sceneID="dVS-0U-V67">
+            <objects>
+                <viewController id="sfw-Xq-ea9" customClass="JDCCardViewController" customModule="DeckOfOneCardOBJ_C" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="abA-LM-keQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="n4p-ki-jjZ">
+                                <rect key="frame" x="86.5" y="270" width="241" height="366"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mQX-Q1-tNs">
+                                        <rect key="frame" x="99.5" y="0.0" width="42" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MdX-29-85I">
+                                        <rect key="frame" x="0.5" y="30.5" width="240" height="295"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZk-py-hcp">
+                                        <rect key="frame" x="58" y="335.5" width="125" height="30.5"/>
+                                        <state key="normal" title="D R A W    C A R D"/>
+                                        <connections>
+                                            <action selector="drawCardButtonTapped:" destination="sfw-Xq-ea9" eventType="touchUpInside" id="ROC-5v-rua"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="n4p-ki-jjZ" firstAttribute="width" secondItem="abA-LM-keQ" secondAttribute="width" multiplier="0.57971" constant="0.80000000000000004" id="D9l-fd-d9S"/>
+                            <constraint firstItem="n4p-ki-jjZ" firstAttribute="height" secondItem="abA-LM-keQ" secondAttribute="height" multiplier="0.407924" constant="0.69999999999999996" id="IM9-n7-P7C"/>
+                            <constraint firstItem="n4p-ki-jjZ" firstAttribute="centerX" secondItem="glw-y0-dKo" secondAttribute="centerX" id="gWv-84-zNQ"/>
+                            <constraint firstItem="n4p-ki-jjZ" firstAttribute="centerY" secondItem="glw-y0-dKo" secondAttribute="centerY" id="pCf-Cr-BHN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="glw-y0-dKo"/>
+                    </view>
+                    <connections>
+                        <outlet property="cardImageView" destination="MdX-29-85I" id="x8O-Oz-upA"/>
+                        <outlet property="drawCardButton" destination="hZk-py-hcp" id="aOW-bC-o2a"/>
+                        <outlet property="suitLabel" destination="mQX-Q1-tNs" id="dPg-Hd-Rp5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TxA-La-DnS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-39.130434782608695" y="117.85714285714285"/>
+        </scene>
+    </scenes>
+</document>

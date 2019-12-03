@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D6F0EDB2396E77700730C84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F0EDA2396E77700730C84 /* AppDelegate.m */; };
+		6D6F0EDE2396E77700730C84 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F0EDD2396E77700730C84 /* SceneDelegate.m */; };
+		6D6F0EE42396E77700730C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F0EE22396E77700730C84 /* Main.storyboard */; };
+		6D6F0EE62396E77800730C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F0EE52396E77800730C84 /* Assets.xcassets */; };
+		6D6F0EE92396E77800730C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F0EE72396E77800730C84 /* LaunchScreen.storyboard */; };
+		6D6F0EEC2396E77900730C84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F0EEB2396E77900730C84 /* main.m */; };
+		6D6F0EF92396ECFC00730C84 /* JDCCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F0EF82396ECFC00730C84 /* JDCCard.m */; };
+		6D6F0EFC2397026700730C84 /* JDCCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F0EFB2397026700730C84 /* JDCCardController.m */; };
+		6D6F0F0223971B7800730C84 /* JDCCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F0F0123971B7800730C84 /* JDCCardViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D6F0ED62396E77700730C84 /* DeckOfOneCardOBJ-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DeckOfOneCardOBJ-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D6F0ED92396E77700730C84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D6F0EDA2396E77700730C84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D6F0EDC2396E77700730C84 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6D6F0EDD2396E77700730C84 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6D6F0EE32396E77700730C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D6F0EE52396E77800730C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D6F0EE82396E77800730C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D6F0EEA2396E77800730C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D6F0EEB2396E77900730C84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D6F0EF72396ECFC00730C84 /* JDCCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDCCard.h; sourceTree = "<group>"; };
+		6D6F0EF82396ECFC00730C84 /* JDCCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDCCard.m; sourceTree = "<group>"; };
+		6D6F0EFA2397026700730C84 /* JDCCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDCCardController.h; sourceTree = "<group>"; };
+		6D6F0EFB2397026700730C84 /* JDCCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDCCardController.m; sourceTree = "<group>"; };
+		6D6F0F0023971B7800730C84 /* DeckOfOneCardOBJ-C-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeckOfOneCardOBJ-C-Bridging-Header.h"; sourceTree = "<group>"; };
+		6D6F0F0123971B7800730C84 /* JDCCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDCCardViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D6F0ED32396E77700730C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D6F0ECD2396E77700730C84 = {
+			isa = PBXGroup;
+			children = (
+				6D6F0ED82396E77700730C84 /* DeckOfOneCardOBJ-C */,
+				6D6F0ED72396E77700730C84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D6F0ED72396E77700730C84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F0ED62396E77700730C84 /* DeckOfOneCardOBJ-C.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D6F0ED82396E77700730C84 /* DeckOfOneCardOBJ-C */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F0EF62396E91A00730C84 /* Views */,
+				6D6F0EF52396E91400730C84 /* View Controllers */,
+				6D6F0EF42396E8FE00730C84 /* Model Controllers */,
+				6D6F0EF32396E8F900730C84 /* Models */,
+				6D6F0EF22396E78F00730C84 /* Resources */,
+			);
+			path = "DeckOfOneCardOBJ-C";
+			sourceTree = "<group>";
+		};
+		6D6F0EF22396E78F00730C84 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F0ED92396E77700730C84 /* AppDelegate.h */,
+				6D6F0EDA2396E77700730C84 /* AppDelegate.m */,
+				6D6F0EDC2396E77700730C84 /* SceneDelegate.h */,
+				6D6F0EDD2396E77700730C84 /* SceneDelegate.m */,
+				6D6F0EE52396E77800730C84 /* Assets.xcassets */,
+				6D6F0EE72396E77800730C84 /* LaunchScreen.storyboard */,
+				6D6F0EEA2396E77800730C84 /* Info.plist */,
+				6D6F0EEB2396E77900730C84 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6D6F0EF32396E8F900730C84 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F0EF72396ECFC00730C84 /* JDCCard.h */,
+				6D6F0EF82396ECFC00730C84 /* JDCCard.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6D6F0EF42396E8FE00730C84 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F0EFA2397026700730C84 /* JDCCardController.h */,
+				6D6F0EFB2397026700730C84 /* JDCCardController.m */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		6D6F0EF52396E91400730C84 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F0F0123971B7800730C84 /* JDCCardViewController.swift */,
+				6D6F0F0023971B7800730C84 /* DeckOfOneCardOBJ-C-Bridging-Header.h */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6D6F0EF62396E91A00730C84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F0EE22396E77700730C84 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D6F0ED52396E77700730C84 /* DeckOfOneCardOBJ-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D6F0EEF2396E77900730C84 /* Build configuration list for PBXNativeTarget "DeckOfOneCardOBJ-C" */;
+			buildPhases = (
+				6D6F0ED22396E77700730C84 /* Sources */,
+				6D6F0ED32396E77700730C84 /* Frameworks */,
+				6D6F0ED42396E77700730C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DeckOfOneCardOBJ-C";
+			productName = "DeckOfOneCardOBJ-C";
+			productReference = 6D6F0ED62396E77700730C84 /* DeckOfOneCardOBJ-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D6F0ECE2396E77700730C84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = jdcorn;
+				TargetAttributes = {
+					6D6F0ED52396E77700730C84 = {
+						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 6D6F0ED12396E77700730C84 /* Build configuration list for PBXProject "DeckOfOneCardOBJ-C" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D6F0ECD2396E77700730C84;
+			productRefGroup = 6D6F0ED72396E77700730C84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D6F0ED52396E77700730C84 /* DeckOfOneCardOBJ-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D6F0ED42396E77700730C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6F0EE92396E77800730C84 /* LaunchScreen.storyboard in Resources */,
+				6D6F0EE62396E77800730C84 /* Assets.xcassets in Resources */,
+				6D6F0EE42396E77700730C84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D6F0ED22396E77700730C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6F0EDB2396E77700730C84 /* AppDelegate.m in Sources */,
+				6D6F0EEC2396E77900730C84 /* main.m in Sources */,
+				6D6F0EFC2397026700730C84 /* JDCCardController.m in Sources */,
+				6D6F0EDE2396E77700730C84 /* SceneDelegate.m in Sources */,
+				6D6F0F0223971B7800730C84 /* JDCCardViewController.swift in Sources */,
+				6D6F0EF92396ECFC00730C84 /* JDCCard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D6F0EE22396E77700730C84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D6F0EE32396E77700730C84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D6F0EE72396E77800730C84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D6F0EE82396E77800730C84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D6F0EED2396E77900730C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D6F0EEE2396E77900730C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D6F0EF02396E77900730C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DeckOfOneCardOBJ-C/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jdcorn.DeckOfOneCardOBJ-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeckOfOneCardOBJ-C/View Controllers/DeckOfOneCardOBJ-C-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D6F0EF12396E77900730C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DeckOfOneCardOBJ-C/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jdcorn.DeckOfOneCardOBJ-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeckOfOneCardOBJ-C/View Controllers/DeckOfOneCardOBJ-C-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D6F0ED12396E77700730C84 /* Build configuration list for PBXProject "DeckOfOneCardOBJ-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D6F0EED2396E77900730C84 /* Debug */,
+				6D6F0EEE2396E77900730C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D6F0EEF2396E77900730C84 /* Build configuration list for PBXNativeTarget "DeckOfOneCardOBJ-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D6F0EF02396E77900730C84 /* Debug */,
+				6D6F0EF12396E77900730C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D6F0ECE2396E77700730C84 /* Project object */;
+}
